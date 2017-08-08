@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Sergey D](https://up.htmlacademy.ru/htmlcss/18/user/412507).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Пудников](https://htmlacademy.ru/profile/id71418)
 
 ---
 
