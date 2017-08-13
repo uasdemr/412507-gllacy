@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Глейси-каталог</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="index.html">
+				<img src="img/logo.png" alt="logo">
+			</a>
+			<nav>
+				<ul class="header-menu">
+					<li><a href="#">Каталог</a>
+						<ul class="header-submenu">
+							<li><a href="#">Новинки</a></li>
+							<li><a href="#">Сливочное</a></li>
+							<li><a href="#">Щербеты</a></li>
+							<li><a href="#">Фруктовый лед</a></li>
+							<li><a href="#">Мелорин</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">О Компании</a></li>
+				</ul>
+				<ul class="header-user">
+					<li><a href="#" class="icon-find" title="Поиск">Поиск</a></li>
+					<li><a href="#" class="icon-log-in">Вход</a></li>
+					<li><a href="#" class="icon-basket">2 товара</a></li>
+				</ul>
+				
+			</nav>
+			<div class="header-contacts">
+				<p class="work-time">С 10 до 20, ежедневно</p>
+				<p class="work-phone">8 812 450-25-25</p>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<div class="filter">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li>Сливочное</li>
+				</ul>
+
+				<h1 class="title">Сливочное мороженное</h1>
+
+				<form action="#" method="get">
+						<label for="">Сортировка</label>
+						<select id="" class="filter-options">
+						  <option>по популярности</option>
+						  <option>Сначала недорогие</option>
+						  <option>Сначала дорогие</option>
+						  <option>По жирности</option>
+						</select>
+
+						<label>Цена: 100 руб. - 500 руб.</label>
+						<input type="range">
+						
+						<label>Жирность:</label>
+							<input id="fat-free" type="radio" name="fat" value="0%"><label for="fat-free">0%</label>
+							<input id="to-10" type="radio" name="fat" value="До 10%" checked><label for="to-10">до 10%</label>
+							<input id="to-30" type="radio" name="fat" value="До 30%"><label for="to-30">до 30%</label>
+							<input id="over-30" type="radio" name="fat" value="выше 30%"><label for="over-30">выше 30%</label>
+						
+						<input type="checkbox"><label>шоколадные</label>
+						<input type="checkbox"><label>сахарные присыпки</label>
+						<input type="checkbox"><label>фрукты</label>
+						<input type="checkbox"><label>сиропы</label>
+						<input type="checkbox"><label>джемы</label>
+						<button type="submit">Применить</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+
+
+
+
+	<div class="modal filter-options">
+		<ul class="list">
+			<li class="option"><a>По популярности</a></li>
+			<li class="option"><a>Сначала недорогие</a></li>
+			<li class="option"><a>Сначала дорогие</a></li>
+			<li class="option"><a>По жирности</a></li>
+		</ul>
+	</div>
+
+</body>
+</html>
