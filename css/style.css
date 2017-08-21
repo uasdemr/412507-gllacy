@@ -5,12 +5,12 @@ body {
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
 }
-h1 {
+.slider-slogan {
 	font-size: 60px;
 	line-height: 1em;
 	font-weight: bold;
 }
-h2 {
+.offer-card-slogan {
 	font-size: 35px;
 	line-height: 1em;
 	font-weight: bold;
