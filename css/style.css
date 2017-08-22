@@ -1,17 +1,167 @@
 body {
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 	line-height: 1.2em;
 	color: black;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
+	background-color: #859e90;
+}
+a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid #a0b4a9;
 }
 .slider-slogan {
 	font-size: 60px;
-	line-height: 1em;
+	line-height: 60px;
+	color: white;
 	font-weight: bold;
 }
 .offer-card-slogan {
 	font-size: 35px;
-	line-height: 1em;
+	line-height: 41px;
+	font-weight: bold;
+	color: white;
+}
+.header-menu, .header-submenu, .header-user {
+	list-style: none;
+}
+.catalog:hover,
+.icon-find:hover,
+.icon-log-in:hover {
+	background-color: #f7f6f3;
+}
+.header-menu {
+	font-size: 16px;
+	line-height: 18px;
 	font-weight: bold;
 }
+.header-user {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+}
+.work-time {
+	color: white;
+	font-size: 14px;
+	line-height: 16px
+	font-weight: bold;
+	margin: 0;
+}
+.work-phone {
+	color: white;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+.slide1 {
+	background-image: url("../img/slide-1.jpg");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+}
+.slide2 {
+	background-image: url("../img/slide-2.jpg");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+}
+.slide3 {
+	background-image: url("../img/slide-3.jpg");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+}
+.slide-btn {
+	font-size: 32px;
+	line-height: 44px;
+	color: white;
+	background-color: #ed5a3d;
+}
+
+
+
+.offer-card-text {
+	color: white;
+}
+.offer-card-btn {
+	background-color: #ed5a3d;
+}
+
+
+
+.main-hits {
+	color: white;
+}
+.price {
+	font-size: 45px;
+	line-height: 45px
+	font-weight: bold;
+}
+
+
+.shop-description {
+	background-image: url("../img/wafer.jpg");
+}
+.shop-slogan {
+	margin: 0;
+	font-size: 24px;
+	line-height: 30px;
+	color: #323232;
+}
+.shop-description-text {
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px
+	color: #323232;
+}
+
+
+.main-blog-news {
+	background-image: url("../img/strawberry-background.jpg");
+	background-repeat: no-repeat;
+	color: #323232;
+}
+.blog-news-caption {
+	font-size: 16px;
+	line-height: 22px;
+}
+.blog-news-ten-methods {
+	font-size: 24px;
+	line-height: 30px;
+	color: #323232;
+	border-bottom: 1px solid black;
+}
+
+
+.main-blog-info {
+	background-image: url("../img/border-dispatch.jpg");
+	background-repeat: no-repeat;
+}
+.main-blog-info-slogan {
+	font-size: 16px;
+	line-height: 22px;
+	color: #5a5a5a;
+}
+
+.adress, .phone-order, .open {
+	font-size: 14px;
+	line-height: 20px;
+}
+.street, .phone-number {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+
+
+.footer-menu {
+	list-style: none;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+
