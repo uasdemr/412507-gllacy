@@ -46,29 +46,29 @@
 				<ul class="breadcrumbs">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="#">Каталог</a></li>
-					<li>Сливочное</li>
+					<li class="filter-no-link">Сливочное</li>
 				</ul>
 
 				<h1 class="title">Сливочное мороженное</h1>
 
 				<form action="#" method="get">
-					<label for="">Сортировка</label>
-					<select id="" class="filter-options">
+					<label class="filter-little-text" for="filter-option">Сортировка</label>
+					<select id="filter-option" class="filter-options">
 						<option>по популярности</option>
 						<option>Сначала недорогие</option>
 						<option>Сначала дорогие</option>
 						<option>По жирности</option>
 					</select>
 
-					<label>Цена: 100 руб. - 500 руб.</label>
+					<label class="filter-little-text" >Цена: 100 руб. - 500 руб.</label>
 					<input type="range">
 
-					<label>Жирность:</label>
+					<label class="filter-little-text" >Жирность:</label>
 					<input id="fat-free" type="radio" name="fat" value="0%"><label for="fat-free">0%</label>
 					<input id="to-10" type="radio" name="fat" value="До 10%" checked><label for="to-10">до 10%</label>
 					<input id="to-30" type="radio" name="fat" value="До 30%"><label for="to-30">до 30%</label>
 					<input id="over-30" type="radio" name="fat" value="выше 30%"><label for="over-30">выше 30%</label>
-
+					<label class="filter-little-text">Наполнители</label>
 					<input type="checkbox"><label>шоколадные</label>
 					<input type="checkbox"><label>сахарные присыпки</label>
 					<input type="checkbox"><label>фрукты</label>

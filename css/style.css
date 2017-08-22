@@ -19,7 +19,7 @@ a {
 	color: white;
 	font-weight: bold;
 }
-.offer-card-slogan {
+.offer-card-slogan, .title {
 	font-size: 35px;
 	line-height: 41px;
 	font-weight: bold;
@@ -166,6 +166,8 @@ a {
 /*Каталог*/
 .breadcrumbs {
 	list-style: none;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 .ice-cream-catalog {
@@ -183,11 +185,22 @@ a {
 }
 
 .link {
-	//text-decoration: none;
 	border-bottom: none;
 
 }
+.filter label {
+	color: white;
+	font-size: 16px;
+	line-height: 18px
+	font-weight: 500;
+}
 
+.filter-little-text, .filter-no-link {
+	color: white;
+	font-size: 14px;
+	line-height: 16px
+	font-weight: bold;
+}
 
 
 
