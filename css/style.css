@@ -64,7 +64,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: auto auto;
 	width: 645px;
-	height: 565px;
+	height: 585px;
 	background-position: 0 0;
 }
 .slide2 {
@@ -178,6 +178,13 @@ a {
 	list-style: none;
 	font-size: 13px;
 	line-height: 18px;
+}
+
+.footer-academy-link {
+	 border-bottom: none;
+}
+.footer-academy {
+	border-bottom: 1px solid #a0b4a9;
 }
 
 /*Каталог*/
