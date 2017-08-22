@@ -63,16 +63,25 @@ a {
 	background-image: url("../img/slide-1.jpg");
 	background-repeat: no-repeat;
 	background-size: auto auto;
+	width: 645px;
+	height: 565px;
+	background-position: -200px 0;
 }
 .slide2 {
 	background-image: url("../img/slide-2.jpg");
 	background-repeat: no-repeat;
 	background-size: auto auto;
+	width: 645px;
+	height: 565px;
+	background-position: -215px 0;
 }
 .slide3 {
 	background-image: url("../img/slide-3.jpg");
 	background-repeat: no-repeat;
 	background-size: auto auto;
+	width: 645px;
+	height: 565px;
+	background-position: -215px 0;
 }
 .slide-btn {
 	font-size: 32px;
@@ -81,7 +90,9 @@ a {
 	background-color: #ed5a3d;
 }
 
-
+.main-hits-img img {
+	border-radius: 50%;
+}
 
 .offer-card-text {
 	color: white;
@@ -119,11 +130,14 @@ a {
 	color: #323232;
 }
 
-
+/*Эксперимент с блоком, кажется успешный*/
 .main-blog-news {
 	background-image: url("../img/strawberry-background.jpg");
 	background-repeat: no-repeat;
 	color: #323232;
+	width: 560px;
+	height: 220px;
+	border-radius: 15px;
 }
 .blog-news-caption {
 	font-size: 16px;
@@ -140,6 +154,9 @@ a {
 .main-blog-info {
 	background-image: url("../img/border-dispatch.jpg");
 	background-repeat: no-repeat;
+	width: 560px;
+	height: 220px;
+	border-radius: 15px;
 }
 .main-blog-info-slogan {
 	font-size: 16px;
