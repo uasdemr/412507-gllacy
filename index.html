@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Глейси</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href="css/style.css" rel="stylesheet">
@@ -11,8 +12,8 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
-				<a href="index.html">
-					<img src="img/logo.svg" alt="logo">
+				<a href="/">
+					<img class="header-logo" src="img/logo.svg" alt="logo">
 				</a>
 				<nav>
 					<ul class="header-menu">
@@ -48,22 +49,23 @@
 						
 						<div class="slide slide1">
 							<div class="container">
+								<img src="img/slide-1.jpg" alt="Крем-брюле и пломбир с малиновым джемом">
 								<h1 class="slider-slogan">Крем-брюле и пломбир с малиновым джемом</h1>
-								<a class="slide-btn" href="#">Дайте оба!</a>
+								<a class="slide-btn site-links" href="#">Дайте оба!</a>
 							</div>
 						</div>
 						
 						<div class="slide slide2">
 							<div class="container">
 								<h1 class="slider-slogan">Шоколадный пломбир и лимонный сорбет</h1>
-								<a class="slide-btn" href="#">Дайте оба!</a>
+								<a class="slide-btn site-links" href="#">Дайте оба!</a>
 							</div>
 						</div>
 
 						<div class="slide slide3">
 							<div class="container">
 								<h1 class="slider-slogan">Пломбир с помадкой и клубничный щербет</h1>
-								<a class="slide-btn" href="#">Дайте оба!</a>
+								<a class="slide-btn site-links" href="#">Дайте оба!</a>
 							</div>
 						</div>
 
@@ -80,12 +82,12 @@
 						<div class="offer-card">
 							<h2 class="offer-card-slogan">Малинка даром!</h2>
 							<p class="offer-card-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-							<a class="offer-card-btn" href="#">Хочу варенье!</a>
+							<a class="offer-card-btn site-links" href="#">Хочу варенье!</a>
 						</div>
 						<div class="offer-card">
 							<h2 class="offer-card-slogan">Шоколадки даром!</h2>
 							<p class="offer-card-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-							<a class="offer-card-btn" href="#">Хочу шоколадки!</a>
+							<a class="offer-card-btn site-links" href="#">Хочу шоколадки!</a>
 						</div>
 					</div>
 				</section>
@@ -149,7 +151,7 @@
 				<article class="main-blog-news">
 					<div class="container">
 						<p class="blog-news-caption">Новое в нашем блоге</p>
-						<a href="#" class="blog-news-ten-methods">10 способов сервировки фруктовых щербетов к столу</a>
+						<a href="#" class="blog-news-methods site-links">10 способов сервировки фруктовых щербетов к столу</a>
 					</div>
 				</article>
 				<section class="main-blog-info">
@@ -162,9 +164,10 @@
 				
 				<section class="map">
 					<div class="container">
+						<img src="img/map.jpg" alt="Карта проезда" width="1200px">
 						<span class="point"></span>
 						<div class="map-contacts">
-							<p class="adress">Адрес главного офиса и офлайн магазина:</p>
+							<p class="contacts-adress">Адрес главного офиса и офлайн магазина:</p>
 							<p class="street">ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
 							<p class="phone-order">Для заказов по телефону:</p>
 							<p class="phone-number">8 812 450-25-25</p>
@@ -187,14 +190,14 @@
 				</div>
 				<div class="main-footer-links">
 					<ul class="footer-menu">
-						<li><a href="#">Для поставщиков</a></li>
-						<li><a href="#">О производстве</a></li>
-						<li><a href="#">Наши документы</a></li>
-						<li><a href="#">Экологические стандарты</a></li>
+						<li><a href="#" class="site-links">Для поставщиков</a></li>
+						<li><a href="#" class="site-links">О производстве</a></li>
+						<li><a href="#" class="site-links">Наши документы</a></li>
+						<li><a href="#" class="site-links">Экологические стандарты</a></li>
 					</ul>
 				</div>
 				<div class="main-footer-copyright">
-					<a class="footer-academy-link" href="https://htmlacademy.ru/intensive/htmlcss">
+					<a class="footer-academy-link site-links" href="https://htmlacademy.ru/intensive/htmlcss">
 						<img src="img/logo-htmlacademy.svg" alt="HTML Academy" width="110px" height="40px">
 						<p>Сделано в <span class="footer-academy">HTML Academy</span> © 2017</p>
 					</a>

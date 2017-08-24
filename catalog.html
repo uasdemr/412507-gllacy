@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Глейси-каталог</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
@@ -52,7 +53,7 @@
 				<h1 class="title">Сливочное мороженное</h1>
 
 				<form action="#" method="get">
-					<label class="filter-little-text" for="filter-option">Сортировка</label>
+					<label class="filter-label" for="filter-option">Сортировка</label>
 					<select id="filter-option" class="filter-options">
 						<option>по популярности</option>
 						<option>Сначала недорогие</option>
@@ -60,15 +61,15 @@
 						<option>По жирности</option>
 					</select>
 
-					<label class="filter-little-text" >Цена: 100 руб. - 500 руб.</label>
+					<label class="filter-label" >Цена: 100 руб. - 500 руб.</label>
 					<input type="range">
 
-					<label class="filter-little-text" >Жирность:</label>
+					<label class="filter-label" >Жирность:</label>
 					<input id="fat-free" type="radio" name="fat" value="0%"><label for="fat-free">0%</label>
 					<input id="to-10" type="radio" name="fat" value="to10%" checked><label for="to-10">до 10%</label>
 					<input id="to-30" type="radio" name="fat" value="to30%"><label for="to-30">до 30%</label>
 					<input id="over-30" type="radio" name="fat" value="more30%"><label for="over-30">выше 30%</label>
-					<label class="filter-little-text">Наполнители</label>
+					<label class="filter-label">Наполнители</label>
 					<input type="checkbox"><label>шоколадные</label>
 					<input type="checkbox"><label>сахарные присыпки</label>
 					<input type="checkbox"><label>фрукты</label>
@@ -203,11 +204,11 @@
 			<div class="container">
 				<span class="icon-prev"></span>
 				<ul class="pagination-links">
-					<li><a href="#" class="link">1</a></li>
-					<li><a href="#" class="link">2</a></li>
-					<li><a href="#" class="link">3</a></li>
-					<li><a href="#" class="link">4</a></li>
-					<li><a href="#" class="link">5</a></li>
+					<li><a href="#" class="pagination-item">1</a></li>
+					<li><a href="#" class="pagination-item">2</a></li>
+					<li><a href="#" class="pagination-item">3</a></li>
+					<li><a href="#" class="pagination-item">4</a></li>
+					<li><a href="#" class="pagination-item">5</a></li>
 				</ul>
 				<span class="icon-next"></span>
 			</div>
@@ -232,7 +233,7 @@
 					</ul>
 				</div>
 				<div class="main-footer-copyright">
-					<a href="">
+					<a href="#">
 						<img src="img/logo-htmlacademy.svg" alt="HTML Academy">
 						<p>Сделано в HTML Academy © 2017</p>
 					</a>

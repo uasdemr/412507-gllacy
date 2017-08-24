@@ -1,16 +1,18 @@
 /*Главная*/
-body {
+* {
 	margin: 0;
 	padding: 0;
+}
+body {
 	font-size: 16px;
-	color: black;
+	color: #000000;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
 	background-color: #859e90;
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 	border-bottom: 1px solid #a0b4a9;
 }
 .slider-slogan {
@@ -26,7 +28,7 @@ a {
 	color: white;
 }
 .header-menu, .header-submenu, .header-user {
-	list-style: none;
+	list-style-type: none;
 }
 .catalog:hover,
 .icon-find:hover,
@@ -34,7 +36,6 @@ a {
 	background-color: #f7f6f3;
 }
 .header-menu {
-	font-size: 16px;
 	line-height: 18px;
 	font-weight: bold;
 }
@@ -48,14 +49,12 @@ a {
 	font-size: 14px;
 	line-height: 16px
 	font-weight: bold;
-	margin: 0;
 }
 .work-phone {
 	color: white;
 	font-size: 22px;
 	line-height: 24px;
 	font-weight: bold;
-	margin: 0;
 }
 
 
@@ -91,6 +90,7 @@ a {
 }
 
 .main-hits-img img {
+	max-width: 100%;
 	border-radius: 50%;
 }
 
@@ -110,7 +110,6 @@ a {
 	font-size: 45px;
 	line-height: 45px
 	font-weight: bold;
-	margin: 0;
 }
 
 
@@ -118,13 +117,11 @@ a {
 	background-image: url("../img/wafer.jpg");
 }
 .shop-slogan {
-	margin: 0;
 	font-size: 24px;
 	line-height: 30px;
 	color: #323232;
 }
 .shop-description-text {
-	margin: 0;
 	font-size: 16px;
 	line-height: 22px
 	color: #323232;
@@ -143,7 +140,7 @@ a {
 	font-size: 16px;
 	line-height: 22px;
 }
-.blog-news-ten-methods {
+.blog-news-methods {
 	font-size: 24px;
 	line-height: 30px;
 	color: #323232;
@@ -164,7 +161,7 @@ a {
 	color: #5a5a5a;
 }
 
-.adress, .phone-order, .open {
+.contacts-adress, .phone-order, .open {
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -201,14 +198,13 @@ a {
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 500;
-	margin: 0;
 }
 
 .pagination-links {
 	list-style: none;
 }
 
-.link {
+.pagination-item {
 	border-bottom: none;
 
 }
@@ -219,7 +215,7 @@ a {
 	font-weight: 500;
 }
 
-.filter-little-text, .filter-no-link {
+.filter-label, .filter-no-link {
 	color: white;
 	font-size: 14px;
 	line-height: 16px
