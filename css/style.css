@@ -59,12 +59,12 @@ a {
 
 
 .slide1 {
-	background-image: url("../img/slider-ice-cream.gif");
-	background-repeat: no-repeat;
-	background-size: auto auto;
-	width: 645px;
-	height: 585px;
-	background-position: 0 0;
+	//background-image: url("../img/slider-ice-cream.gif");
+	//background-repeat: no-repeat;
+	//background-size: auto auto;
+	//width: 645px;
+	//height: 585px;
+	//background-position: 0 0;
 }
 .slide2 {
 	background-image: url("../img/slide-2.jpg");
