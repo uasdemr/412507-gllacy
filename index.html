@@ -153,7 +153,7 @@
 					<p class="main-blog-info-slogan">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
 					<form action="" method="post">
 						<label class="visually-hidden">Введите ваш адрес электронной почты для подписки.
-							<input class="main-blog-info-email" type="email" placeholder="Электронная почта">
+							<input class="site-input main-blog-info-email" type="email" placeholder="Электронная почта">
 						</label>
 						<button class="btn blog-info-btn" type="submit">Отправить</button>
 					</form>
@@ -185,10 +185,10 @@
 					</div>
 					<div class="main-footer-links">
 						<ul class="footer-menu">
-							<li><a href="#" class="site-links">Для поставщиков</a></li>
-							<li><a href="#" class="site-links">О производстве</a></li>
-							<li><a href="#" class="site-links">Наши документы</a></li>
-							<li><a href="#" class="site-links">Экологические стандарты</a></li>
+							<li><a href="#" class="footer-menu-link">Для поставщиков</a></li>
+							<li><a href="#" class="footer-menu-link">О производстве</a></li>
+							<li><a href="#" class="footer-menu-link">Наши документы</a></li>
+							<li><a href="#" class="footer-menu-link">Экологические стандарты</a></li>
 						</ul>
 					</div>
 					<div class="main-footer-copyright">
@@ -206,17 +206,17 @@
 				<h3 class="visually-hidden">Введите то, что ищете</h3>
 					<form action="" class="find" method="get">
 						<label class="modal-label visually-hidden" for="modal-search">Поиск по сайту</label>
-						<input id="modal-search" type="text" placeholder="Что ищем?">
+						<input class="site-input modal-search" id="modal-search" type="text" placeholder="Что ищем?">
 					</form>
 				</div>
 				<div class="modal modal-log-in">
 				<h3 class="visually-hidden">Для того, что бы мы могла с вами связаться, заполните фору</h3>
 					<form action="" method="post">
 						<label class="visually-hidden">Введите электронную почту для входа в личный кабинет
-							<input type="email" name="email" placeholder="Электронная почта">
+							<input class="site-input log-in-input" type="email" name="email" placeholder="Электронная почта">
 						</label>
 						<label class="visually-hidden">Введите пароль для входа в личный кабинет
-							<input type="password" placeholder="Пароль">
+							<input class="site-input log-in-input" type="password" placeholder="Пароль">
 						</label>
 						<button class="btn log-in-button" type="submit">Войти</button>
 					</form>
@@ -227,17 +227,17 @@
 				</div>
 				<div class="modal modal-feedback">
 					<h3 class="visually-hidden">Форма обратной связи</h3>
-					<h3 class="modal-slogan">Мы обязательно вам ответим!</h3>
+					<h3 class="modal-feedback-slogan">Мы обязательно вам ответим!</h3>
 					<button class="modal-close">Закрыть</button>
 					<form action="" method="post">
 						<label class="visually-hidden">Как к вам можно обращаться при ответе?
-							<input type="text" name="name" placeholder="Как вас зовут?">
+							<input class="site-input feedback-input" type="text" name="name" placeholder="Как вас зовут?">
 						</label>
 						<label class="visually-hidden">Введите адрес электронной почты.
-							<input type="email" name="email" placeholder="Ваша почта для ответа?">
+							<input class="site-input feedback-input" type="email" name="email" placeholder="Ваша почта для ответа?">
 						</label>
 						<label class="visually-hidden">Введите в этом поле текст вашего обращения.
-							<input type="textarea" name="textarea" placeholder="Напишите что-нибудь...">
+							<input class="site-input feedback-input" type="textarea" name="textarea" placeholder="Напишите что-нибудь...">
 						</label>
 						<button class="btn feedback-button" type="submit">Отправить</button>
 					</form>
