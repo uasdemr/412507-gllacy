@@ -15,6 +15,10 @@ a {
 	color: #ffffff;
 	border-bottom: 1px solid #a0b4a9;
 }
+footer a:hover,
+footer a:focus {
+	color: #ffbc9e;
+}
 button {
   font: inherit;
   text-align: center;
@@ -232,15 +236,47 @@ button:focus {
 }
 
 /*Каталог*/
+.item-button {
+	//display: none;
+}
 .catalog {
 	font-size: 16px;
 	line-height: 18px;
+}
+.ice-cream-item .container:hover {
+	background-color: rgba(254, 254, 254, 0.4);
+	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.4);
+}
+.ice-cream-item .container:hover .item-button {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+	background-color: #f16642;
+	color: #fefefe;
+}
+.catalog.btn {
+	border: none;
+}
+.catalog.btn:hover {
+	background-color: #f7f6f3;
+	color: #333333;
+}
+.header-button {
+	background-color: #a1b4a9;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+}
+.header-button:hover {
+	background-color: #f7f6f3;
+	color: #333333;	
 }
 .breadcrumbs {
 	list-style: none;
 	font-size: 14px;
 	line-height: 16px;
 }
+
 .filter-btn {
 	background-color: #9cb0a4;
 	font-size: 16px;
@@ -268,20 +304,60 @@ button:focus {
 	border-bottom: none;
 
 }
+.pagination-item-active {
+	background-color: #ffffff;
+	color: #353535;
+}
+.pagination-item:hover,
+.pagination-item:focus {
+	background-color: #9db1a5;
+}
+.pagination-item:active {
+	background-color: #ffffff;
+	color: #353535;
+}
 .filter label {
-	color: white;
+	color: #ffffff;
 	font-size: 16px;
 	line-height: 18px
 	font-weight: 500;
 }
 
-form .filter-label, .filter-no-link {
-	color: white;
+form .filter-label {
+	color: #ffffff;
 	font-size: 14px;
 	line-height: 16px
 	font-weight: bold;
 }
-
+ .breadcrumbs-current {
+ 	color: #ffffff;
+ }
+.filter-options {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #9db1a5;
+	border: none;
+}
+.filter-options:hover {
+	background-color: #ffffff;
+	color: #323232;
+}
+.filter-option {
+	font: inherit;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+}
+.filter-range:hover {
+	cursor: pointer;
+}
+.filter-form label:hover,
+.filter-form input:hover,
+.filter-form select:hover {
+	cursor: pointer;
+}
 
 /*Модальные окна*/
 .modal {

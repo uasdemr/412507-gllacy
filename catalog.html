@@ -31,9 +31,9 @@
 					<li><a href="#">О Компании</a></li>
 				</ul>
 				<ul class="header-user">
-					<li><a href="#" class="header-button header-find" title="Поиск">Поиск</a></li>
-					<li><a href="#" class="header-button" title="Вход">Вход</a></li>
-					<li><a href="#" class="header-button" title="Корзина">Пусто</a></li>
+					<li><a href="#" class="btn header-button header-find" title="Поиск">Поиск</a></li>
+					<li><a href="#" class="btn header-button" title="Вход">Вход</a></li>
+					<li><a href="#" class="btn header-button" title="Корзина">Пусто</a></li>
 				</ul>
 			</nav>
 			<div class="header-contacts">
@@ -48,20 +48,20 @@
 				<ul class="breadcrumbs">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="#">Каталог</a></li>
-					<li class="filter-no-link">Сливочное</li>
+					<li class="breadcrumbs-current">Сливочное</li>
 				</ul>
 				<h2 class="title">Сливочное мороженное</h2>
-				<form action="#" method="get">
+				<form class="filter-form" action="#" method="get">
 					<label class="filter-label" for="filter-option">Сортировка</label>
 					<select id="filter-option" class="filter-options">
-						<option>по популярности</option>
-						<option>Сначала недорогие</option>
-						<option>Сначала дорогие</option>
-						<option>По жирности</option>
+						<option class="filter-option">по популярности</option>
+						<option class="filter-option">сначала недорогие</option>
+						<option class="filter-option">сначала дорогие</option>
+						<option class="filter-option">по жирности</option>
 					</select>
-					<label class="filter-label" >Цена: 100 руб. - 500 руб.</label>
-					<input type="range">
-					<label class="filter-label" >Жирность:</label>
+					<label class="filter-label">Цена: 100 руб. - 500 руб.</label>
+					<input class="filter-range" type="range">
+					<label class="filter-label">Жирность:</label>
 					<input id="fat-free" type="radio" name="fat" value="0%"><label for="fat-free">0%</label>
 					<input id="to-10" type="radio" name="fat" value="to10%" checked><label for="to-10">до 10%</label>
 					<input id="to-30" type="radio" name="fat" value="to30%"><label for="to-30">до 30%</label>
@@ -77,7 +77,7 @@
 			</div>
 		</div>
 		<section class="ice-cream-catalog">
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -89,7 +89,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -113,7 +113,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -125,7 +125,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -137,7 +137,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -149,7 +149,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -161,7 +161,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -173,7 +173,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -185,7 +185,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -197,7 +197,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -209,7 +209,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#">
+			<a class="ice-cream-item" href="#">
 				<div class="container">
 					<div class="item">
 						<div class="item-img">
@@ -226,7 +226,7 @@
 			<div class="container">
 				<a href="#" class="icon-prev">Назад</a>
 				<ul class="pagination-links">
-					<li><a href="#" class="pagination-item">1</a></li>
+					<li><a href="#" class="pagination-item pagination-item-active">1</a></li>
 					<li><a href="#" class="pagination-item">2</a></li>
 					<li><a href="#" class="pagination-item">3</a></li>
 					<li><a href="#" class="pagination-item">4</a></li>
@@ -262,14 +262,6 @@
 			</div>
 		</div>
 	</footer>
-	<div class="modal filter-options">
-		<ul class="list">
-			<li class="option"><a>По популярности</a></li>
-			<li class="option"><a>Сначала недорогие</a></li>
-			<li class="option"><a>Сначала дорогие</a></li>
-			<li class="option"><a>По жирности</a></li>
-		</ul>
-	</div>
 	<div class="modal cart">
 		<div class="container">
 			<div class="item">
