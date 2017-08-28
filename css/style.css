@@ -319,10 +319,6 @@ button:focus {
   color: #ffffff;
 }
 
-/*.breadcrumbs-current {
-  color: #ffffff;
-}*/
-
 .filter-btn {
   background-color: #9cb0a4;
   font-size: 16px;
@@ -404,7 +400,6 @@ button:focus {
 .filter-form select:hover {
   cursor: pointer;
 }
-
 
 /*Модальные окна*/
 
