@@ -10,7 +10,13 @@ body {
   font-size: 16px;
   color: #000000;
   font-weight: normal;
-  background-color: #859e90;
+  background-color: #fff;
+}
+
+.wrapper {
+	width: 1200px;
+	background-color: #859e90;
+	margin: 0 auto;
 }
 
 a {
@@ -421,9 +427,7 @@ button:focus {
 }
 
 /*Сетки*/
-.wrapper {
-	width: 1200px;
-}
+
 
 .header-container {
 	min-height: 83px;
@@ -448,4 +452,80 @@ button:focus {
 	width: 267px;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.offer .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-hits .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.shop-description {
+	margin: 0 auto;
+}
+
+.main-blog-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-footer .container {
+	display: flex;
+	justify-content: space-around;
+	height: 102px;
+	align-items: center;
+}
+
+.main-footer-social {
+	width: 320px;
+}
+
+.main-footer-links {
+	width: 560px;
+}
+
+.main-footer-copyright {
+	width: 294px;
+}
+
+.main-footer-links {
+	display: flex;
+	justify-content: space-around;
+	width: 586px;
+	
+}
+
+/*Сетки для Каталога*/
+
+.breadcrumbs li {
+	display: inline-block;
+}
+
+.ice-cream-catalog {
+	display: flex;
+	justify-content: space-around;
+	width: 1200px;
+	flex-wrap: wrap;
+	//align-items: center;
+}
+
+.ice-cream-item {
+	width: 267px;
+}
+
+.item-img img {
+	border-radius: 50%;
+}
+
+.pagination {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.pagination .container, .pagination-links {
+	display: flex;
 }
