@@ -419,3 +419,33 @@ button:focus {
   border-bottom: 1px solid #adacaa;
   color: #adacaa;
 }
+
+/*Сетки*/
+.wrapper {
+	width: 1200px;
+}
+
+.header-container {
+	min-height: 83px;
+}
+
+.header-navigation, .header-menu, .header-user {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*.header-logo-link {
+	width: 160px;
+}*/
+
+.header-menu {
+	width: 560px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header-user {
+	width: 267px;
+	justify-content: space-around;
+	align-items: center;
+}
