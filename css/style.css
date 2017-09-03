@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   color: #000000;
   font-weight: normal;
-  //background-color: #849d8f;
+  background-color: #859e90;;
 }
 
 body > input[type="radio"] {
@@ -126,17 +126,43 @@ button:focus {
   font-weight: bold;
 }
 
-.header-submenu {
-  background-color: #fff;
+
+/*Подменю*/
+.header-menu li {
+	//display: inline-block;
+	position: relative;
 }
 
-.header-submenu li:hover,
-.header-submenu-item:focus {
+.header-submenu a {
+  display: block;
+	//margin-left: -1px;
+  padding: 8px 10px;
+}
+
+.header-submenu {
+  background-color: #fff;
+  position: absolute;
+  //top: 25px;
+	border-radius: 5px;
+	width: 142px;
+	display: none;
+}
+
+.header-submenu li:first-child {
+	border-bottom: 1px solid #d1d0ce;
+}
+
+.header-submenu a:hover,
+.header-submenu a:focus {
   background-color: rgba(255, 0, 0, 0.2);
 }
 
 .header-submenu li:active {
   background-color: rgba(255, 0, 0, 0.4);
+}
+
+.header-menu li:hover .header-submenu {
+	display: block;
 }
 
 .header-submenu a {
