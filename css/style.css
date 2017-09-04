@@ -3,39 +3,38 @@
 * {
   margin: 0;
   padding: 0;
-}
+  }
 
-body {
+  body {
   font-family: 'Roboto', "Arial", sans-serif;
   font-size: 16px;
   color: #000000;
   font-weight: normal;
-  background-color: #859e90;;
-}
+  background-color: #859e90;
+  }
 
 body > input[type="radio"] {
   display: none;
-}
+  }
 
 .wrapper::before,
 .wrapper::after {
   content: "";
-
   visibility: hidden;
 }
 
 .wrapper::before {
   background-image: url("../img/slide-2.png");
-}
+  }
 
 .wrapper::after {
   background-image: url("../img/slide-3.png");
-}
+  }
 
 .wrapper {
   min-width: 1200px;
   max-width: 1200px;
-	margin: 0 auto;
+  margin: 0 auto;
   background-color: #859e90;
   background-image: url("../img/slide-1.png");
   background-repeat: no-repeat;
@@ -43,15 +42,15 @@ body > input[type="radio"] {
   background-position-y: 83px;
   padding: 0 27px;
   transition: background-image 0.5s ease,
-  	background-color 0.5s ease;
+  background-color 0.5s ease;
   display: flex;
   flex-direction: column;
-}
+  }
 
 .catalog-wrapper {
-	min-width: 1200px;
+  min-width: 1200px;
   max-width: 1200px;
-	margin: 0 auto;
+  margin: 0 auto;
   background-color: #859e90;
   //background-image: url("../img/slide-1.png");
   //background-repeat: no-repeat;
@@ -59,16 +58,16 @@ body > input[type="radio"] {
   //background-position-y: 83px;
   //padding: 0 27px;
   //transition: background-image 0.5s ease,
-  	//background-color 0.5s ease;
+  //background-color 0.5s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 /*.main {
-	width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
+width: 900px;
+margin: 0 auto;
+padding: 0 20px;
 }*/
 
 a {
@@ -129,13 +128,13 @@ button:focus {
 
 /*Подменю*/
 .header-menu li {
-	//display: inline-block;
-	position: relative;
+  //display: inline-block;
+  position: relative;
 }
 
 .header-submenu a {
   display: block;
-	//margin-left: -1px;
+  //margin-left: -1px;
   padding: 8px 10px;
 }
 
@@ -143,13 +142,13 @@ button:focus {
   background-color: #fff;
   position: absolute;
   //top: 25px;
-	border-radius: 5px;
-	width: 142px;
-	display: none;
+  border-radius: 5px;
+  width: 142px;
+  display: none;
 }
 
 .header-submenu li:first-child {
-	border-bottom: 1px solid #d1d0ce;
+  border-bottom: 1px solid #d1d0ce;
 }
 
 .header-submenu a:hover,
@@ -162,7 +161,7 @@ button:focus {
 }
 
 .header-menu li:hover .header-submenu {
-	display: block;
+  display: block;
 }
 
 .header-submenu a {
@@ -180,7 +179,7 @@ button:focus {
 }
 
 .header-contacts {
-	
+
 }
 
 .work-time {
@@ -196,15 +195,16 @@ button:focus {
   line-height: 24px;
   font-weight: bold;
 }
+
 .slider {
-	position: relative;
-	padding-top: 270px;
-	text-align: center;
-	color: #ffffff;
+  position: relative;
+  padding-top: 270px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .slide {
-	display: none;
+  display: none;
 }
 
 .slider-buttons label {
@@ -240,7 +240,6 @@ button:focus {
   background-image: url("../img/slide-3.png");
 }
 
-
 #btn-1:checked ~ .wrapper label[for="btn-1"],
 #btn-2:checked ~ .wrapper label[for="btn-2"],
 #btn-3:checked ~ .wrapper label[for="btn-3"] {
@@ -252,15 +251,14 @@ button:focus {
   bottom: 25px;
   left: 0;
   z-index: 20;
-
   font-size: 0;
 }
 
 /*.slide {
-  background-image: url("../img/slide-1.jpg");
-  background-repeat: no-repeat;
-  background-size: auto auto;
-  width: 100%;
+background-image: url("../img/slide-1.jpg");
+background-repeat: no-repeat;
+background-size: auto auto;
+width: 100%;
 }*/
 
 .btn {
@@ -273,10 +271,10 @@ button:focus {
 }
 
 .slider-btn {
-	display: inline-block;
+  display: inline-block;
   padding: 12px 50px;
   font-size: 31px;
-  line-height: 41px
+  line-height: 41px;
   vertical-align: top;
   color: #ffffff;
   text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
@@ -303,16 +301,15 @@ button:focus {
 }
 
 .main-hits {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .main-hits-img {
-	position: relative;
+  position: relative;
 }
 
 .main-hits-img svg {
-	position: absolute;
-
+  position: absolute;
 }
 
 .main-hits-img img {
@@ -356,7 +353,7 @@ button:focus {
 
 .shop-description {
   background-image: url("../img/wafer.jpg");
-  width: 1150px;
+  //width: 1150px;
   border-radius: 15px;
 }
 
@@ -372,7 +369,7 @@ button:focus {
   color: #323232;
 }
 
-/*Эксперимент с блоком, кажется успешный*/
+  /*Эксперимент с блоком, кажется успешный*/
 
 .main-blog-news {
   background-image: url("../img/strawberry-background.jpg");
@@ -458,25 +455,24 @@ button:focus {
   color: #ffffff;
 }
 
-
-/*Каталог*/
+  /*Каталог*/
 
 .catalog {
   font-size: 16px;
   line-height: 18px;
 }
 
-.item:hover	 {
+.item:hover  {
   background-color: rgba(254, 254, 254, 0.4);
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.4);
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .item-button {
-	display: inline-block;
+  display: inline-block;
   padding: 12px 15px;
   font-size: 18px;
-  line-height: 24px
+  line-height: 24px;
   font-weight: bold;
   vertical-align: top;
   color: #ffffff;
@@ -489,33 +485,33 @@ button:focus {
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
 }
 
-/*.item:hover .item-button {
+  /*.item:hover .item-button {
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
   background-color: #f16642;
   color: #fefefe;
-}*/
+  }*/
 
 .price {
-	font-size: 45px;
-	line-height: 45px;
-	color: #ffffff;
-	font-weight: bold;
-	text-align: baseline;
+  font-size: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: baseline;
 }
 
 .price span {
-	font-size: 30px;
-	line-height: 45px;
+  font-size: 30px;
+  line-height: 45px;
 }
 
 .item-title {
-	font-size: 16px;
-	line-height: 22px;
-	font-weight: medium;
-	color: #ffffff;
-	text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: medium;
+  color: #ffffff;
+  text-align: center;
 }
 
 .header-button {
@@ -638,7 +634,7 @@ button:focus {
 /*Сетки*/
 
 .header {
-	width: 100%;
+  width: 100%;
 }
 
 .header-container {
@@ -679,9 +675,9 @@ button:focus {
 }
 
 .main-blog-wrapper {
-	width: 1150px;
+  //width: 1150px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .main-footer .container {
@@ -700,7 +696,7 @@ button:focus {
 }
 
 .footer-svg {
-	border: 2px solid #c2cec7;
+  border: 2px solid #c2cec7;
   border-radius: 50%;
   padding: 1px;
 }
@@ -739,7 +735,7 @@ button:focus {
 }
 
 .item-img {
-	padding-top: 35px;
+  padding-top: 35px;
 }
 
 .item-img img {
@@ -755,3 +751,7 @@ button:focus {
 .pagination-links {
   display: flex;
 }
+
+  .offer {
+  margin-top: 50px;
+  }
