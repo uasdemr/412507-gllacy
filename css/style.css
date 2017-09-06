@@ -1173,10 +1173,10 @@ width: 100%;
   bottom: 45px;  
 }
 
-.user-find:hover .modal .modal-search {
+.user-find a.header-find:hover .modal-search {
   display: block;
 }
 
-.user-enter:hover .modal-log-in {
+.header-enter:hover .modal-log-in {
   display: block;
 }
